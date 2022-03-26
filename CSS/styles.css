@@ -1,0 +1,72 @@
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.2em;
+}
+h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1.5em;
+}
+h2 {
+  font-family: "Terebuchet MS", "times New Roman", serif;
+  font-size: 2em;
+  /* letter-spacing: -0.1em; */
+  word-spacing: 1em;
+}
+h3.heading {
+  font-size: 2em;
+}
+p.important {
+  font-size: 2em;
+  font-weight: 100;
+  line-height: 1.2em;
+  text-align: left;
+  text-indent: 1em;
+}
+.emphasized {
+  font-style: italic;
+  font-size: 1.5em;
+}
+.standout {
+  color: red;
+}
+blockquote {
+  font-size: 1.4em;
+  line-height: 1em;
+  color: darkslategrey;
+}
+.border {
+  border-bottom: 5px solid red;
+  padding: 0.1em;
+}
+.dottedborder {
+  border: 1px dotted red;
+  line-height: 2em;
+}
+body {
+  font-family: Georgia, serif;
+  font-size: 1.1em;
+  color: darkslategray;
+}
+img.image-alignment {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img.float-around-image {
+  float: left;
+  margin: 0 2em 0 3em;
+}
+p.no-wrap {
+  clear: both;
+}
+a {
+  color: cyan;
+}
+a:hover {
+  color: red;
+  font-weight: 600;
+  text-decoration: none;
+}
+a:active {
+  font-size: 2em;
+}

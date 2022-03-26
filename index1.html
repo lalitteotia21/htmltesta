@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Practice</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Our Mission</h1>
+    <h2>Helping People Help People</h2>
+    <h3 class="heading">Class Headings and test for nothing</h3>
+    <img
+      class="float-around-image"
+      src="images/img1.jpg"
+      alt="my photo"
+      width="280"
+      height="140"
+      usemap="#maptest"
+    />
+    <p class="important">
+      <span class="border">Lalit Teotia</span><br />
+      <span class="dottedborder">That's my name</span>
+    </p>
+    <p class="important no-wrap">new class test</p>
+    <a
+      href="file:///C:/Users/Lalit/Desktop/smartHTML/index1.html"
+      target="_blank"
+      >same page link</a
+    >
+    <blockquote>
+      <p>
+        <b>I LIKE YOU</b> <span class="emphasized"><br />so much </span>i have
+      </p>
+    </blockquote>
+    <p class="standout emphasized">red color</p>
+    <p id="openwindow">this will open a new window</p>
+    <script>
+      document.getElementById("openwindow").onclick = openWindow;
+      function openWindow() {
+        let w = window.open(
+          "index1.html",
+          "",
+          "width=500,height=400,left=300,right=400,top=100"
+        );
+      }
+    </script>
+    <map name="maptest">
+      <area
+        shape="rect"
+        coords="10,10,100,70"
+        href="index1.html"
+        target="_blank"
+      />
+    </map>
+    <ul>
+      <li>moon</li>
+      <li>earth</li>
+      <li>planets</li>
+    </ul>
+    <ol>
+      <li>wash</li>
+      <li>rinse</li>
+      <li>repeate</li>
+    </ol>
+  </body>
+</html>
