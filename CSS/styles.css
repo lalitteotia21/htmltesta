@@ -70,3 +70,42 @@ a:hover {
 a:active {
   font-size: 2em;
 }
+ul {
+  margin: 0 2em 0 1em;
+  list-style-position: inside;
+  list-style-type: circle;
+  font-size: 1.2em;
+}
+ol {
+  margin: 1.5em 2em 0 1em;
+  list-style-type: upper-roman;
+}
+li {
+  margin: 0.4em;
+}
+th,td{
+  border: 1px solid rgb(219, 13, 13);
+  padding:1em 1em 1em 1em;
+  /* width:20%; */
+  text-align:center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  font-weight: 900;
+  color:gray;
+  color:grey;
+  letter-spacing: 0.1em;
+}
+table{
+  /* border-collapse:collapse; */
+  border-right:4px solid orange;
+  border-left:4px solid orange;
+  border-spacing:0.5em;
+  width:50%;
+  /* text-align:center; */
+}
+/* this is comment */
+body{
+  background-color:slategray;
+  width:90%;
+  margin:0 auto 0 auto ;
+}

@@ -1,64 +1,92 @@
 <html>
-  <head>
-    <title>Practice</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-  </head>
-  <body>
-    <h1>Our Mission</h1>
-    <h2>Helping People Help People</h2>
-    <h3 class="heading">Class Headings and test for nothing</h3>
-    <img
-      class="float-around-image"
-      src="images/img1.jpg"
-      alt="my photo"
-      width="280"
-      height="140"
-      usemap="#maptest"
-    />
-    <p class="important">
-      <span class="border">Lalit Teotia</span><br />
-      <span class="dottedborder">That's my name</span>
+
+<head>
+  <title>Practice</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+
+<body>
+  <h1>Our Mission</h1>
+  <h2>Helping People Help People</h2>
+  <h3 class="heading">Class Headings and test for nothing</h3>
+  <img class="float-around-image" src="images/img1.jpg" alt="my photo" width="280" height="140" usemap="#maptest" />
+  <p class="important">
+    <span class="border">Lalit Teotia</span><br />
+    <span class="dottedborder">That's my name</span>
+  </p>
+  <p class="important no-wrap">new class test</p>
+  <a href="file:///C:/Users/Lalit/Desktop/smartHTML/index1.html" target="_blank">same page link</a>
+  <blockquote>
+    <p>
+      <b>I LIKE YOU</b> <span class="emphasized"><br />so much </span>i have
     </p>
-    <p class="important no-wrap">new class test</p>
-    <a
-      href="file:///C:/Users/Lalit/Desktop/smartHTML/index1.html"
-      target="_blank"
-      >same page link</a
-    >
-    <blockquote>
-      <p>
-        <b>I LIKE YOU</b> <span class="emphasized"><br />so much </span>i have
-      </p>
-    </blockquote>
-    <p class="standout emphasized">red color</p>
-    <p id="openwindow">this will open a new window</p>
-    <script>
-      document.getElementById("openwindow").onclick = openWindow;
-      function openWindow() {
-        let w = window.open(
-          "index1.html",
-          "",
-          "width=500,height=400,left=300,right=400,top=100"
-        );
-      }
-    </script>
-    <map name="maptest">
-      <area
-        shape="rect"
-        coords="10,10,100,70"
-        href="index1.html"
-        target="_blank"
-      />
-    </map>
-    <ul>
-      <li>moon</li>
-      <li>earth</li>
-      <li>planets</li>
-    </ul>
-    <ol>
-      <li>wash</li>
-      <li>rinse</li>
-      <li>repeate</li>
-    </ol>
-  </body>
+  </blockquote>
+  <p class="standout emphasized">red color</p>
+  <p id="openwindow">this will open a new window</p>
+  <script>
+    document.getElementById("openwindow").onclick = openWindow;
+    function openWindow() {
+      let w = window.open(
+        "index1.html",
+        "",
+        "width=500,height=400,left=300,right=400,top=100"
+      );
+    }
+  </script>
+  <map name="maptest">
+    <area shape="rect" coords="10,10,100,70" href="index1.html" target="_blank" />
+  </map>
+  <ul>
+    <li>moon</li>
+    <li>earth</li>
+    <li>planets</li>
+  </ul>
+  <ol>
+    <li>wash</li>
+    <li>rinse</li>
+    <li>repeate</li>
+  </ol>
+  <table>
+    <tr>
+      <th scope="col">first name</th>
+      <th scope="col">last name and now i have no idea</th>
+    </tr>
+    <tr>
+      <td>Lalit</td>
+      <td>Teotia</td>
+    </tr>
+  </table>
+  <form>
+    Last Name:<br />
+    <input type="text" name="surname" size="20" maxlength="50" />
+    <br /><br />
+    How did you find us?<br><br>
+    <label><input type="radio" name="found-thru" value="Google">Google search</label>
+    <input type="radio" name="found-thru" id="review" value="Review">
+    <label for="review">Review now</label>
+    <input type="radio" name="found-thru" id="friend" value="Friend" checked="checked">
+    <label for="friend">Friend</label>
+    <br /><br />
+    How did you find us?<br><br>
+    <label><input type="checkbox" name="found-thru" value="Google">Google search</label>
+    <label><input type="checkbox" name="found-thru" value="Review">Review now</label>
+    <label><input type="checkbox" name="found-thru" value="Friend" checked="checked">Friend</label>
+    <br><br>
+    Select Your State:<br>
+    <select name="selected-state">
+      <option value="AL">Alabama</option>
+      <option value="AK" select="selected">Alaska</optoin>
+      <option value="TX">Texas</option>
+    </select>
+    <br><br>
+    Message:<br />
+    <textarea name="message" rows="4" cols="20"></textarea>
+    <br /><br />
+    <input type="submit" value="send" />
+    <br /><br />
+    <input type="image" src="images/img1.jpg" alt="sign up" width="70" height="20" />
+  </form>
+  <!- hello this is comment -->
+</body>
+
 </html>
